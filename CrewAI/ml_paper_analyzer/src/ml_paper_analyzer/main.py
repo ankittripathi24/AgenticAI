@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from ml_paper_analyzer.crew import MlPaperAnalyzer
+from ml_paper_analyzer.crew import MlPaperAnalyzerCrew
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -14,81 +14,42 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 # interpolate any tasks and agents information
 
 def run():
-    """
-    Run the crew.
-    """
+    # This input is injected into {topic} if you use it in your YAML descriptions
     inputs = {
-        'topic': 'AI LLMs',
-        'current_year': str(datetime.now().year)
+        'topic': 'The "Attention is All You Need" paper and Transformer architecture'
     }
-
-    try:
-        MlPaperAnalyzer().crew().kickoff(inputs=inputs)
-    except Exception as e:
-        raise Exception(f"An error occurred while running the crew: {e}")
+    
+    MlPaperAnalyzerCrew().crew().kickoff(inputs=inputs)
 
 
 def train():
-    """
-    Train the crew for a given number of iterations.
-    """
     inputs = {
         "topic": "AI LLMs",
         'current_year': str(datetime.now().year)
     }
     try:
-        MlPaperAnalyzer().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
-
+        # FIX: Use the correct class name
+        MlPaperAnalyzerCrew().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
     except Exception as e:
         raise Exception(f"An error occurred while training the crew: {e}")
 
 def replay():
-    """
-    Replay the crew execution from a specific task.
-    """
     try:
-        MlPaperAnalyzer().crew().replay(task_id=sys.argv[1])
-
+        # FIX: Use the correct class name
+        MlPaperAnalyzerCrew().crew().replay(task_id=sys.argv[1])
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
 
 def test():
-    """
-    Test the crew execution and returns the results.
-    """
     inputs = {
         "topic": "AI LLMs",
         "current_year": str(datetime.now().year)
     }
-
     try:
-        MlPaperAnalyzer().crew().test(n_iterations=int(sys.argv[1]), eval_llm=sys.argv[2], inputs=inputs)
-
+        # FIX: Use the correct class name
+        MlPaperAnalyzerCrew().crew().test(n_iterations=int(sys.argv[1]), eval_llm=sys.argv[2], inputs=inputs)
     except Exception as e:
         raise Exception(f"An error occurred while testing the crew: {e}")
 
-def run_with_trigger():
-    """
-    Run the crew with trigger payload.
-    """
-    import json
 
-    if len(sys.argv) < 2:
-        raise Exception("No trigger payload provided. Please provide JSON payload as argument.")
 
-    try:
-        trigger_payload = json.loads(sys.argv[1])
-    except json.JSONDecodeError:
-        raise Exception("Invalid JSON payload provided as argument")
-
-    inputs = {
-        "crewai_trigger_payload": trigger_payload,
-        "topic": "",
-        "current_year": ""
-    }
-
-    try:
-        result = MlPaperAnalyzer().crew().kickoff(inputs=inputs)
-        return result
-    except Exception as e:
-        raise Exception(f"An error occurred while running the crew with trigger: {e}")

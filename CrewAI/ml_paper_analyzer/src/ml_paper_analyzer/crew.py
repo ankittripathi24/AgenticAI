@@ -8,35 +8,42 @@ from typing import List
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
 @CrewBase
-class MlPaperAnalyzer():
+class MlPaperAnalyzerCrew():
     """MlPaperAnalyzer crew"""
-
-    # Load the YAML files automatically
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 
+    # --- Agents ---
+    @agent
+    def researcher(self) -> Agent:
+        return Agent(config=self.agents_config['researcher'], verbose=True)
+
+    @agent
+    def critical_analyst(self) -> Agent:
+        return Agent(config=self.agents_config['critical_analyst'], verbose=True)
+
     @agent
     def visionary_strategist(self) -> Agent:
-        return Agent(
-            config=self.agents_config['visionary_strategist'],
-            verbose=True
-        )
+        return Agent(config=self.agents_config['visionary_strategist'], verbose=True)
+
+    # --- Tasks ---
+    @task
+    def extraction_task(self) -> Task:
+        return Task(config=self.tasks_config['extraction_task'], agent=self.researcher())
+
+    @task
+    def critique_task(self) -> Task:
+        return Task(config=self.tasks_config['critique_task'], agent=self.critical_analyst())
 
     @task
     def hypothesis_generation_task(self) -> Task:
-        return Task(
-            config=self.tasks_config['hypothesis_generation_task'],
-            # This is crucial: we map the task to the agent here
-            agent=self.visionary_strategist() 
-        )
+        return Task(config=self.tasks_config['hypothesis_generation_task'], agent=self.visionary_strategist())
 
     @crew
     def crew(self) -> Crew:
-        """Creates the MlPaperAnalyzer crew"""
         return Crew(
-            # The decorator automatically collects all @agent and @task methods
-            agents=self.agents, 
-            tasks=self.tasks, 
-            process=Process.sequential, # Or hierarchical if you add a manager
+            agents=self.agents, # Automatically collects the 3 agents above
+            tasks=self.tasks,   # Automatically collects the 3 tasks above
+            process=Process.sequential,
             verbose=True,
         )
