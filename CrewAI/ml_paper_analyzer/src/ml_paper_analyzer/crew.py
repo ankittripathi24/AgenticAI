@@ -16,15 +16,15 @@ class MlPaperAnalyzerCrew():
     # --- Agents ---
     @agent
     def researcher(self) -> Agent:
-        return Agent(config=self.agents_config['researcher'], verbose=True)
+        return Agent(config=self.agents_config['researcher'],llm="gpt-4o-mini", verbose=True)
 
     @agent
     def critical_analyst(self) -> Agent:
-        return Agent(config=self.agents_config['critical_analyst'], verbose=True)
+        return Agent(config=self.agents_config['critical_analyst'],llm="gpt-4o-mini", verbose=True)
 
     @agent
     def visionary_strategist(self) -> Agent:
-        return Agent(config=self.agents_config['visionary_strategist'], verbose=True)
+        return Agent(config=self.agents_config['visionary_strategist'],llm="gpt-4o-mini", verbose=True)
 
     # --- Tasks ---
     @task
@@ -46,4 +46,5 @@ class MlPaperAnalyzerCrew():
             tasks=self.tasks,   # Automatically collects the 3 tasks above
             process=Process.sequential,
             verbose=True,
+            cache=True,
         )

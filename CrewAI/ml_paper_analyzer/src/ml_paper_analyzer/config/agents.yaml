@@ -29,3 +29,4 @@ visionary_strategist:
     You are a world-class AI researcher. You take the "Gaps" identified by the Analyst
     and propose "Solutions."
     You do not summarize; you innovate. You propose specific architectural changes or new experiments.
+  output_file: 'research_report.md'
