@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ed6c2519-d01c-4096-b80b-a78d3ef4d737",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "other",
+    "text": "Ankit Tripathi - AI Engineer Resume Hyderabad, India Phone: +91 7755914062 | Email: ankittripathi2402@gmail.com LinkedIn: linkedin.com/in/ankit-tripathi-71a48245/ Career Summary Innovative and technically skilled Test Manager with 12+ years of experience in software quality engineering, now pivoting into AI engineering. Hands-on experience with GenAI, Retrieval-Augmented Generation (RAG), LangChain, and cloud-native development. Successfully built and deployed AI/ML solutions such as predictive maintenance dashboards, NLP-based tweet analysis pipelines, and RAG-based chatbots. Strong foundational skills in Python, machine learning, cloud architecture (AWS), and scalable test automation. Eager to contribute AI-first thinking to real-world business challenges. Core Competencies - AI/ML: GenAI, LangChain, RAG, NLP, PyTorch - Programming: Python, NLTK, Pandas, NumPy - Cloud & DevOps: AWS, Docker, CI/CD, Cloud & On-prem Deployment - Test Engineering: Test Automation, Jira Xray, Test Framework Architecture - Leadership: Agile Mentorship, Cross-functional Collaboration, Quality Governance"
+  },
+  {
+    "id": "11e234db-be8d-4b94-ad8a-6fd5eb20bf02",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "projects",
+    "text": "LangChain RAG Chatbot: Created a chatbot using LangChain and vector databases to process and query historical bug reports. The system suggests potential areas of application improvement. IoT Predictive Maintenance Dashboard: Full-stack application to collect, analyze, and visualize sensor data in real time for predictive maintenance. Tweet Sentiment Analysis: Built a sentiment classification pipeline using Python and NLTK. Improved accuracy by 20%. Ankit Tripathi - AI Engineer Resume"
+  },
+  {
+    "id": "f2f05638-9d18-468a-bc7c-1b552da77492",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "Test Manager | Siemens PLM | Hyderabad, India | Mar 2018 - Present - Designed and deployed Docker-based QA automation framework on isolated customer environments. - Led transition from manual to automated testing for the Insights Hub IoT platform. - Initiated production monitoring systems using log analysis and automation. - Mentored QA engineers on DevOps, test architecture, and AI quality tools. - Integrated Jira Xray with Agile workflows for effective test planning and tracking. Certifications"
+  },
+  {
+    "id": "57327311-bca6-42b0-82d1-95f1c8e8892e",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "- GenAI for Developers - Coursera, May 2024"
+  },
+  {
+    "id": "4907c500-4c4b-487f-af8c-fac7467f3dbb",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "- Fine-Tuning LLMs - Coursera Project Network, May 2024"
+  },
+  {
+    "id": "ee5f5640-2943-4017-b13e-352b6e4b47bf",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "- Generative AI for Everyone - DeepLearning.AI, May 2024 - LangChain: Chat with Your Data - DeepLearning.AI"
+  },
+  {
+    "id": "c4dc9d86-916e-444a-8f97-7b44854cd62e",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "- Certified IoT Expert - Global Tech Council, Dec 2024"
+  },
+  {
+    "id": "3b7d50cf-c4af-4406-9726-183f7cb12792",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "- FinOps Certified Practitioner - Linux Foundation, Dec 2024"
+  },
+  {
+    "id": "f9e2a25e-aa99-4022-89f3-0281258c8065",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "experience",
+    "text": "- AWS Solutions Architect - Associate (Expired Dec 2023) - Intro to Deep Learning with PyTorch - DataCamp"
+  },
+  {
+    "id": "5901fccf-455c-4c1b-b107-98e9f25586b8",
+    "source": "Ankit_Tripathi_AI_Engineer_Resume",
+    "section": "education",
+    "text": "Bachelor of Engineering in Computer Science RGPV, Jabalpur, M.P. | Graduated: July 2008"
+  },
+  {
+    "id": "5f749fa8-280b-4628-a666-243696de1a8d",
+    "source": "Ankit_Tripathi_Test_Manager_Resume",
+    "section": "other",
+    "text": "ANKIT TRIPATHI +91 77559 14062 | ankittripathi2402@gmail.com | Hyderabad, India LinkedIn: https://www.linkedin.com/in/ankit-tripathi-71a48245/ Professional Summary Results-driven Test Manager with over 12 years of experience in software quality assurance, automation frameworks, and agile methodologies. Adept in leading cross-functional teams, defining test strategies, implementing scalable automation solutions, and ensuring product quality across cloud and on-premise environments. Skilled in DevOps, performance monitoring, and customer-focused testing. Known for proactively implementing innovative solutions like production health dashboards and Docker-based test frameworks. Brings hands-on experience in cutting-edge technologies such as IoT and AI for enhancing QA efficiency and analytics."
+  },
+  {
+    "id": "18a725bd-b18e-4cfe-ad69-3d91a484c5af",
+    "source": "Ankit_Tripathi_Test_Manager_Resume",
+    "section": "experience",
+    "text": "Test Manager Siemens PLM, Hyderabad, India"
+  },
+  {
+    "id": "cf2e7a46-ca83-4940-a577-4cbadd43d22e",
+    "source": "Ankit_Tripathi_Test_Manager_Resume",
+    "section": "experience",
+    "text": "Mar 2018 - Present - Led the quality engineering efforts for the Insights Hub application, a major industrial IoT platform. - Defined and implemented comprehensive test strategies, including functional, integration, performance, and regression testing. - Spearheaded the design of a dockerized test automation framework for secure deployments in customer environments without direct access. - Established a daily production monitoring solution to proactively track application health. - Oversaw QA team planning, bandwidth management, and mentoring, ensuring high delivery quality and audit readiness. - Implemented automated insights from customer bug data using modern NLP tools to improve test coverage and product quality. Key Skills Test Management: QA Strategy, Test Planning, Risk Management, Defect Tracking, Agile/Scrum Automation & Tools: Python, Selenium (if applicable), Jira Xray, CI/CD pipelines, Docker DevOps & Infrastructure: AWS, Production Monitoring, Cloud & On-Premise Environments Leadership: Team Building, Cross-Functional Collaboration, Mentoring, Audit & Compliance Innovation: Predictive Maintenance Monitoring, AI/ML in QA Analytics"
+  },
+  {
+    "id": "f0812513-f099-45b2-baf0-03a9c676091e",
+    "source": "Ankit_Tripathi_Test_Manager_Resume",
+    "section": "education",
+    "text": "Bachelor of Engineering (Computer Science) Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Jabalpur, M.P. Graduated: Jul 2008 Certifications - Certified Internet of Things (IoT) Expert, Global Tech Council - Dec 2024 - FinOps Certified Practitioner, The Linux Foundation - Dec 2024 - AWS Certified Solutions Architect - Associate, AWS - Dec 2020 (Expired Dec 2023) - GenAI for Developers, Coursera - May 2024 - Generative AI for Everyone, DeepLearning.AI - May 2024 Selected Projects Production Health Monitoring for Insights Hub Designed and implemented a monitoring solution for the production environment to proactively detect anomalies and system degradations. Reduced incident response time by 30%. Dockerized Test Framework for Customer Environments Created a lightweight, containerized automation suite deployable in isolated client environments. Improved deployment reliability and feedback loop efficiency. IoT Predictive Maintenance Dashboard Built a full-stack solution for sensor data processing and real-time maintenance prediction, integrating QA practices into IoT data validation and alerting systems."
+  },
+  {
+    "id": "ab2bf8a2-8236-4e82-8703-1705f3663d66",
+    "source": "Profile",
+    "section": "other",
+    "text": "Contact 184076@gmail.com www.linkedin.com/in/ankit- tripathi-71a48245 (LinkedIn) Top Skills Attention to Detail Communication Analytical Skills Certifications LangChain Chat with Your Data! Introduction to Deep Learning with PyTorch FinOps Certified Practitioner Certified Internet of Things (IoT) Expert Generative AI for Everyone Ankit Tripathi Head of Quality for Insights Hub Pune, Maharashtra, India"
+  },
+  {
+    "id": "04d250c4-4d19-407e-8485-204711af2151",
+    "source": "Profile",
+    "section": "experience",
+    "text": "history of working in the computer software industry. Skilled in Test Automation, Java, Selenium, Python (Programming Language), and Selenium WebDriver. Strong engineering professional with a Bachelor's degree focused in Computer Science from Rajiv Gandhi Prodyogiki Vishwavidyalaya. Siemens PLM Software 7 years 7 months Test Manager"
+  },
+  {
+    "id": "b562ad6f-6e5e-46a3-8880-a78654ece415",
+    "source": "Profile",
+    "section": "experience",
+    "text": "June 2020\u00a0-\u00a0Present\u00a0(5 years 7 months) Pune, Maharashtra, India Advanced Software Engineer"
+  },
+  {
+    "id": "36aee508-051f-48cd-ab34-2f274462d2b1",
+    "source": "Profile",
+    "section": "experience",
+    "text": "June 2018\u00a0-\u00a0June 2022\u00a0(4 years 1 month) Pune Synechron Senior Associate"
+  },
+  {
+    "id": "91bbf322-de64-422e-8275-16e7abb5cc54",
+    "source": "Profile",
+    "section": "experience",
+    "text": "February 2015\u00a0-\u00a0June 2018\u00a0(3 years 5 months) 5+ Years of Experience in Automation Testing. Extensive experience on Selenium Automation(Java) and other Continuous Integration Tools( and supporting tools) like Jenkin Maven, ANT and TestNG. Wipro Senior Software Engineer"
+  },
+  {
+    "id": "af479e8c-894e-4522-bb0c-67f604005abb",
+    "source": "Profile",
+    "section": "experience",
+    "text": "December 2009\u00a0-\u00a0January 2015\u00a0(5 years 2 months) .       Developing test plan and test strategy . Review of the test cases written for the releases. . Coordination between development team and testing team .       Automating the test cases Page 1 of 2"
+  },
+  {
+    "id": "24ceb4a7-2228-40e4-ae02-6c38f776324e",
+    "source": "Profile",
+    "section": "education",
+    "text": "Birla Institute of Technology And Science (BITS), Pilani Postgraduate Degree,\u00a0Artificial Intelligence and Machine Learning\u00a0\u00b7\u00a0(April 2023\u00a0-\u00a0March 2024) Rajiv Gandhi Prodyogiki Vishwavidyalaya Bachelor's degree,\u00a0Computer Science\u00a0\u00b7\u00a0(2004\u00a0-\u00a02008) Mar Gregorious Memorial 12th,\u00a0Maths Science\u00a0\u00b7\u00a0(2003\u00a0-\u00a02004) Page 2 of 2"
+  }
+]

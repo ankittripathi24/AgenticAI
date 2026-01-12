@@ -1,0 +1,24 @@
+[project]
+name = "ml_paper_analyzer"
+version = "0.1.0"
+description = "ML_Paper_Analyzer using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]==1.6.1"
+]
+
+[project.scripts]
+ml_paper_analyzer = "ml_paper_analyzer.main:run"
+run_crew = "ml_paper_analyzer.main:run"
+train = "ml_paper_analyzer.main:train"
+replay = "ml_paper_analyzer.main:replay"
+test = "ml_paper_analyzer.main:test"
+run_with_trigger = "ml_paper_analyzer.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
